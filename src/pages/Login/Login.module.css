@@ -1,13 +1,19 @@
 body {
     background-color: var(--color-p);
     color: white;
+    overflow-y: hidden;
 }
 
-.container{
+.container {
+    display: flex;
+}
+
+.login{
     background-color: var(--color-n2);
-    max-width: 37.5vw;
+    width: 37.5vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -20,10 +26,24 @@ body {
 }
 
 .p{
-    padding: 10px;
+    padding: 10px 0;
     font-size: 0.75em;
 }
 
 .a{
     color: white;
+}
+
+.containerRight {
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.imagem{
+    width: 35vw;
 }
