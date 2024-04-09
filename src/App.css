@@ -7,3 +7,9 @@
   --color-n4: #f3f4f8;
   --color-p: #635fc7;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
