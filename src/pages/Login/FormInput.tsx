@@ -1,5 +1,5 @@
 import { ComponentProps } from "react"
-import style from "./FormInput.module.css"
+import style from "../../styles/FormInput.module.css"
 
 interface FormInputProps extends ComponentProps<"input">{
     type: "email" | "password" | "text"

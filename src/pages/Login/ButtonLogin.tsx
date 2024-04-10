@@ -1,5 +1,5 @@
 import { ComponentProps } from "react"
-import style from "./ButtonLogin.module.css"
+import style from "../../styles/ButtonLogin.module.css"
 
 interface ButtonLoginProps extends ComponentProps<"button">{
     type: "submit"

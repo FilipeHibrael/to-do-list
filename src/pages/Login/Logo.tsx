@@ -1,5 +1,5 @@
 import image from "../../assets/design-todo-list.png"
-import style from "./Logo.module.css"
+import style from "../../styles/Logo.module.css"
 
 export function Logo(){
     return(

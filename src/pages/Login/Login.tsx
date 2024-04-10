@@ -1,7 +1,7 @@
 import { ButtonLogin } from "./ButtonLogin";
 import { FormInput } from "./FormInput";
 import { Logo } from "./Logo"
-import style from "./Login.module.css"
+import style from "../../styles/Login.module.css"
 
 interface LoginProps {
     toggleScreen: () => void
