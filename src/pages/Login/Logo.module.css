@@ -1,0 +1,13 @@
+.containerRight {
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.image{
+    width: 35vw;
+}

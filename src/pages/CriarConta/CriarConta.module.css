@@ -1,14 +1,8 @@
-body {
-    background-color: var(--color-p);
-    color: white;
-    overflow-y: hidden;
-}
-
 .container {
     display: flex;
 }
 
-.login{
+.criarConta{
     background-color: var(--color-n2);
     width: 37.5vw;
     height: 100vh;
@@ -32,4 +26,18 @@ body {
 
 .a{
     color: white;
+}
+
+.nomeSobrenome {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomeInput{
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px 0px;
+    width: 11vw;
 }
